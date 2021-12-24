@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
 body{
-    background-color: rgb(245, 242, 229);
+    background-color: rgb(245, 202, 202);
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
- background-color: darkgray;
+ background-color: rgb(238, 212, 212);
 
 }
 h1{
-    color: #722007;
+    color: #e77a13;
+    margin-left: 13px;
 }
 .container h3{
-    background-color: antiquewhite;
+    background-color: rgb(211, 193, 193);
     color: blueviolet;
-    padding: 4%;
+    padding: 1%;
     text-decoration: underline;
     text-transform: uppercase;
     letter-spacing: 0.2em;
@@ -23,23 +24,23 @@ h1{
     font-size: 10px;
 } */
 p{
-    color:hsla(314, 87%, 24%, 0.88);
+    color:rgb(5, 89, 102);
     font-family:'Imperial Script', Helvetica, sans-serif ;
     font-size: 2rem;
     font-weight: bold;
     line-height: 1.6em;
 }
 #second-p{
-    color: cyan;
+    color: rgb(117, 5, 5);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 600;
 }
 #box-model{
- background-color: gainsboro;
- width: 300px;
- border: 15px solid brown;
- padding: 50px;
+ background-color: rgb(238, 212, 212);
+ width: 350px;
+ border: 10px solid rgb(124, 29, 29);
+ padding: 15px;
  /* margin: 20px; */
 
  /* margin-top: 5px;
@@ -52,8 +53,10 @@ p{
  margin: 5px 10px;
 }
 .category{
-    border: 1px solid goldenrod;
-
+    border: 1px solid rgb(131, 53, 53);
+}
+.category h2{
+    color: rgb(182, 134, 14);
 }
 .category ul{
     padding: 0;
@@ -68,10 +71,10 @@ p{
     color: rebeccapurple;
 }
 .category li{
-
+    margin-left: 13px;
 }
 .my-form{
-    padding: 20px;
+    padding: 10px;
 }
 .my-form.form-group{
     padding: 20px;
@@ -82,7 +85,17 @@ p{
 .my-form input[type="text"], .my-form textarea{
     padding: 8px;
     width: 100%;
+    /* columns: 30; */
+    
 }
-.button:hover{
-background: rosybrown;
+/* .button:hover{
+background: rgb(31, 28, 28);
+} */
+.b24{
+    background-color: red;
+    color: white;
+    border-color: white;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    border-radius: 6px;
 }
