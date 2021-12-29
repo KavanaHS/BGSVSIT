@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+.box{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+}
+.box1 {background: violet;}
+.box2 {background: indigo;}
+.box3 {background: blue;}
+.box4 {background: green;}
+.box5 {background: yellow;}
+.box6 {background: orange;}
+.box7 {background: red;}
+.box8 {background: black;}
+.box9 {background: silver;}
+.box10 {background: teal;}
+
+.container{
+    display: flex;
+}
+
+.box{
+    flex: 1;
+    order: 0;
+}
+
+.box3{
+    order: 2;
+}
+
+.box6{
+    order: 1;
+}
