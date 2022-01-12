@@ -1,0 +1,430 @@
+body,html
+{
+    height: 100%;
+    width: 100%;
+}
+nav
+{
+    text-decoration: none;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    /* padding-bottom: 18px; */
+    margin-bottom: 5px;
+}
+
+.nav1
+{
+    text-decoration: none;
+    margin-left: 800px;
+    word-spacing: 6px;
+    padding: 5px;
+    /* padding-bottom: 25px; */
+}
+.button
+{
+    border-radius: 5px;
+    /* color: rgb(96, 96, 238); */
+    background-color:rgb(188, 175, 245);
+    /* padding: 5px; */
+    /* width: 45px; */
+}
+.center
+{
+    text-align: center;
+    /* margin-top: 60px; */
+    color: white;
+    background-image: url(https://cdn.pixabay.com/photo/2021/02/06/16/29/jay-5988657__480.jpg);
+    height: 440px;
+    background-size: 1245px 650px ;
+    /* background-color: aqua; */
+    /* width: 1950px; */
+    background-repeat: no-repeat;
+    /* height: 440px; */
+}
+.center h1
+{
+    padding-top: 90px;
+    font-size: xx-large;
+    text-align: center;
+}
+.center p
+{
+    font-size: x-large;
+    text-align: center;
+}
+.center button
+{
+    background-color: transparent;
+    color: white;
+}
+.a
+{
+    text-align: center;
+    /* margin-top: -450px; */
+    /* padding-top: -450px; */
+    position: relative;
+}
+.p
+{
+    text-align: center;
+}
+.b1
+{
+    text-align: center;
+    margin-left: 550px;
+}
+.b2 
+{
+    text-align: center;
+}
+
+/* .h2
+{
+    text-align: center;
+    color: rgb(180, 170, 170);
+} */
+.p-1
+{
+    text-align: center;
+    color: rgb(180, 175, 175);
+    word-spacing: 3px;
+    line-height: 4px;
+    padding-bottom: 60px;
+    padding-top: 45px;
+    /* margin-right: 65px */
+    /* padding-left: 45px; */
+    position: relative;
+}
+.box1
+{
+    padding: 30px 18px;
+    width: 293px;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(172, 168, 168);
+    border-color: rgb(224, 221, 221);
+    /* box-sizing: content-box; */
+    border-style: solid;
+    margin-left: 100px;
+    position: relative;
+    border-radius: 9px;
+}
+.img1
+{
+  border-radius: 75px;
+  height: 75px;
+  width: 75px;   
+}
+.box2
+{
+    padding: 25px 18px;
+    width: 293px;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(172, 168, 168);
+    border-color: rgb(224, 221, 221);
+    /* box-sizing: content-box; */
+    border-style: solid;
+    margin-left: 500px;
+    position: relative;
+    border-radius: 9px;
+    margin-top: -290px;
+}
+.img2
+{
+    border-radius: 75px;
+    height: 85px;
+    width: 85px;      
+}
+.box3
+{
+    padding: 30px 18px;
+    width: 293px;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(172, 168, 168);
+    border-color: rgb(224, 221, 221);
+    /* box-sizing: content-box; */
+    border-style: solid;
+    margin-left: 900px;
+    position: relative;
+    border-radius: 9px;
+    margin-top: -290px;
+}
+.img3
+{
+    border-radius: 75px;
+    height: 75px;
+    width: 75px;      
+}
+.black
+{ 
+    background-color: black;
+    height: 690px;
+    text-align: center;
+    color: white;
+    line-height: 5px;
+    padding-top: 45px;
+    margin-top: 55px;
+    padding-bottom: 15px;
+    /* font-size: x-large; */
+}
+.black1
+{
+    /* color: white; */
+    /* width: 30%; */
+    height: 315px;
+    /* text-align: center; */
+    line-height: 5px;
+    padding-bottom: 15px;
+
+}
+.black1 h2
+{
+    /* width: 55px; */
+    /* text-align: left; */
+    margin-right: 670px;
+    /* padding-top: -5px; */
+    margin-top: 15px;
+}
+.black1p
+{
+    height: 100px;
+    width: 43%;
+    position: relative;
+    line-height: 20px;
+    /* padding-top: -150px; */
+    margin-top: -320px;
+    /* margin-right: 250px; */
+    padding-left: 45px;
+    font-size: 17px;
+}
+.img4
+{
+    height: 250px;
+    width: 45%;
+    margin-right:625px;
+    position: relative;
+    padding-top: 85px;
+    padding-bottom: 5px;
+}
+.black2 h2
+{
+    margin-left: 590px;
+    /* padding-top: -5px; */
+    margin-top: 5px;
+}
+.black2 p
+{
+    height: 100px;
+    width: 45%;
+    position: relative;
+    line-height: 20px;
+    /* padding-top: 50px; */
+    /* margin-right: 250px; */
+    padding-left: 680px;
+    font-size: 17px;
+    color: white;
+}
+.img5
+{
+    height: 250px;
+    width: 45%;
+    margin-left:590px;
+    position: relative;
+    /* padding-bottom: 350px; */
+    /* margin-top: -250px; */
+    margin-top: -440px;
+    padding-bottom: 5px;   
+}
+.b3
+{
+    color:white;
+    padding: 5px 8px;
+    background-color: black;
+    border-color: white;
+    margin-right: 700px;
+    margin-top: 15px;
+    /* padding-top: 15px; */
+}
+.b4
+{
+    color:white;
+    padding: 5px 8px;
+    background-color: black;
+    border-color: white;
+    margin-left: 700px;
+    margin-top: 15px;
+}
+.white
+{
+    /* margin-top: 25px; */
+    padding-top: 45px;
+    word-spacing: 5px;
+    padding-left: 35px;
+    color: rgb(156, 151, 151);
+    text-align: left;
+    /* width: 40%; */
+}
+.white p
+{
+    width: 60%;
+    /* background-image: url(https://cdn.pixabay.com/photo/2021/03/02/17/41/long-eared-owl-6063351__480.jpg); */
+}
+.imgw
+{
+    height: 350px;
+    width: 60%;
+}
+.whiteright
+{
+    margin-left: 855px;
+    text-align: left;
+    margin-top: -580px;
+    width: 25%;
+    color: rgb(158, 157, 157);
+}
+.b6
+{
+    margin-left: 38px;
+    background-color: white;
+    color:  rgb(158, 157, 157);
+    border-color: rgb(158, 157, 157);
+    padding: 5px 8px;
+    margin-bottom: 45px;
+}
+.whiteright h4
+{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.whitp
+{
+    color: rgb(85, 191, 233);
+    text-decoration: underline;
+}
+.conclusion
+{
+    background-color: rgb(241, 238, 238);
+    height: 510px;
+    width: 100%;
+    margin-top: 9%;
+}
+.conclusion1
+{
+    color: rgb(143, 146, 148);
+    width: 20%;
+    text-decoration: underline;
+    /* padding-top: 25px; */
+    padding-left: 10%;
+    /* padding-top: 55px; */
+}
+.conclusion h2
+{
+    text-decoration: none;
+    color: rgb(143, 146, 148);
+    padding-top: 55px;
+    padding-left: 10%;
+    font-size: larger;
+}
+.conclusion2
+{
+    color: rgb(143, 146, 148);
+    width: 20%;
+    text-decoration: underline;
+    /* padding-top: 25px; */
+    padding-left: 35%;
+}    
+.conclusion h3
+{
+    text-decoration: none;
+    color: rgb(143, 146, 148);
+    padding-top: 45px;
+    padding-left: 35%;
+    margin-top: -280px;
+}    
+.conclusion3
+{
+    width: 35%;
+    padding-left: 65%;
+    margin-top: -280px;
+}
+.conclusion3 p
+{
+    color: rgb(143, 146, 148);
+    padding-left: 33px;
+}
+.conclusion4
+{
+    word-spacing: 5px;
+    text-align: center;
+    margin-top: -100px;
+    /* background-color: gainsboro; */
+    /* height: 150px; */
+    position: relative;
+    padding-top: 250px;
+    font-size: 20px;
+    margin-left: 35px;
+    color: rgb(143, 146, 148);
+}
+i{
+    /* text-align: right; */
+    margin-top:5px;
+    margin-right: 15px;
+    margin-left: 20px;
+    font-size: 25px;
+    /* color: rgb(107, 102, 102); */
+    /* padding: 5px; */
+    padding-bottom:10px ;
+    word-spacing: 5px;
+    color: rgb(143, 146, 148);
+}
+.cp1
+{
+    padding-right: 500px;
+}
+.cp2
+{
+    margin-top: -43px;
+    margin-right: 110px;
+}
+.cp3
+{
+    text-decoration: underline;
+    margin-top: -42px;
+    /* margin-right: -15px; */
+    margin-left: 30px;
+}
+.cp4
+{
+    /* text-decoration: underline; */
+    margin-top: -42px;
+    /* margin-right: -15px; */
+    margin-left: 240px;
+}
+.cp5
+{
+    text-decoration: underline;
+    margin-top: -42px;
+    /* margin-right: -15px; */
+    margin-left: 400px;
+}
+nav
+{
+    text-decoration: none;
+    margin-right: 5px;
+    /* margin-top: px; */
+    padding: 5px;
+    /* padding-bottom: 18px; */
+    margin-bottom: 5px;
+}
+
+.nav1
+{
+    text-decoration: none;
+    margin-left: 800px;
+    word-spacing: 8px;
+    padding: 5px;
+    padding-bottom: 25px;
+}

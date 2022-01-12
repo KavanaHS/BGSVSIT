@@ -1,0 +1,89 @@
+body,html
+{
+   
+    overflow: hidden;
+    overflow-x: hidden;
+    background-color: rgb(238, 232, 232);
+    background-color: rgb(222, 235, 240);
+    /* background-color: rgb(218, 244, 255); */
+}
+.div1
+{
+    box-sizing: border-box;
+    border-color: rgb(207, 205, 205);
+    box-shadow:20px 0px  70px 0px rgb(39, 38, 38);
+    border-radius: 5px;
+    text-align: center;
+    border-style: solid;
+    width: 520px;
+    color: black;
+    height: 450px;
+    margin-left: 350px;
+    background-image: url(https://media.istockphoto.com/photos/human-resource-talent-management-recruitment-employee-successful-picture-id1205439297?b=1&k=6&m=1205439297&s=170667a&w=0&h=Tp_QVBwfkutRV_PgYzq4cDgihlB195jFH2y_UKJLHKg=);
+    opacity: 1.0;
+    /* padding-top: 15px; */
+    margin-top: 75px;
+    font-style: italic;
+    
+}
+.div1 h1
+{
+    text-transform: uppercase;
+}
+.b1
+{
+    margin-top: 45px;
+    padding: 15px 226px;
+    border-color: transparent;
+    background-color: transparent;
+    color: black;
+    /* text-decoration: none; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b1:hover
+{
+    background-color: transparent;
+    padding: 15px 206px;
+    border-color: gainsboro
+}
+.div1 hr
+{
+    margin-top: -3px;
+    width: 245px;
+}
+.b2
+{
+    margin-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 226px;
+    border-color: transparent;
+    background-color: transparent;
+    color: black;
+    /* text-decoration: none; */
+}
+.b2:hover
+{
+    background-color: transparent;
+    padding: 15px 206px;
+    border-color: gainsboro
+}
+/* .div1 hr
+{
+    margin-top: -3px;
+} */
+.b3
+{
+    margin-top: 45px;
+    padding: 15px 226px;
+    border-color: transparent;
+    background-color: transparent;
+    /* color: yellow; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
+.b3:hover
+{
+    background-color: transparent;
+    padding: 15px 206px;
+    border-color: gainsboro;
+}
