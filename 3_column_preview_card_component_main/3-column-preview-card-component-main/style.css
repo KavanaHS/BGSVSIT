@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+.container{
+    background-color: rgb(247, 245, 241);
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    /* max-width: 300px; */
+    border-radius: 5px;
+}
+.Orange{
+    padding: 20px 10px;
+    background-color: hsl(31, 77%, 52%);
+}
+.Orange h2{
+    color: white;
+    /* margin: 3px; */
+}
+.Orange p{
+    color: white;
+    margin: 3px 15px;
+}
+.Blue{
+    padding: 20px 10px;
+    background-color: hsl(184, 100%, 22%);
+}
+.Blue h2{
+    color: white;
+    padding-left: 15px ;
+    /* margin: 3px 15px; */
+}
+.Blue p{
+    color: white;
+    margin: 3px 15px;
+}
+.Dark{
+    padding: 20px 10px;
+    background-color:   hsl(179, 100%, 13%)
+}
+.Dark h2{
+    color: white;
+    /* margin: 3px; */
+}
+.Dark p{
+    color: white;
+    margin: 3px 15px;
+}
+
+.b1{
+    background-color: white;
+    border-radius: 25px;
+    border :none;
+    margin: 20px;
+    padding: 5px 18px;
+    color: hsl(31, 77%, 52%);
+    /* font-size: 15px; */
+}
+
+.b2{
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    color: hsl(184, 100%, 22%);
+    margin: 20px;
+    padding: 5px 18px;
+}
+
+.b3{
+    background-color: white;
+    border-radius: 25px;
+    border :none;
+    color: hsl(179, 100%, 13%);
+    margin: 20px;
+    padding: 5px 18px;
+}
+
+ @media screen and (max-width: 600px){
+    body{
+        min-height: 80vh;
+    }
+
+    .container{
+        width: 400px;
+        background-size: cover;
+        /* justify-content: flex-end; */
+        /* grid-template-rows: 260px 260px 260px; */
+    }
+
+    .Orange{
+        /* grid-template-rows: 1fr; */
+        /* position: absolute; */
+        flex-direction: column;
+    }
+    .Dark{
+        /* grid-template-rows: 1fr; */
+        /* position: absolute; */
+        flex-direction: column;
+    }
+    .Blue{
+        /* grid-template-rows: 1fr; */
+        /* position: absolute; */
+        flex-direction: column;
+    }
+} 
